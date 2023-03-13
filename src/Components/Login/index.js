@@ -37,7 +37,7 @@ export default function Login() {
       
   localStorage.setItem('token', response.data.token);
      window.alert("Login Successfully");
-       navigate("/GetEmployees");
+       navigate("/Dashboard");
      } else {
        alert("Invalid username or password");
      }

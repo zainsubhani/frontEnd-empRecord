@@ -64,13 +64,13 @@ export default function Dashboard() {
                 {" "}
                 Get All Employees <span aria-hidden="true">→</span>
               </button>
-              <button
+              {/* <button
                 disabled={data < 1}
                 className={`  rounded-md bg-[green] px-3.5 py-2.5 text-sm font-semibold text-[white] shadow-sm hover:	 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white 
                 ${data < 1 && "brightness-50 cursor-not-allowed	"}`}
               >
                 Filter Search
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
